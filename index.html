@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ava Johanson's course assignment portal for course WDD 230-Web Frontend Development">
     <meta name="author" content="Ava Johanson">
+    <meta property="og:url" content="https://awesomeness7567.github.io/wdd230/" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Ava Johanson - WDD 230 - wEB Frontend Development">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development - Ava Johanson course home page assignment">
+    <meta property="og:image" content="https://github.com/Awesomeness7567/wdd230/blob/main/images/Home-page-profile-pic.jpg">
+    <link rel="icon" href="favicon.ico">
     <title>Ava Johanson - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
    <header>
@@ -28,6 +36,7 @@
             <h3>Learning Activities</h3>
             <ul>
                 <li>Lesson 01: <a href="lesson01/holygrail.html">holygrail</a></li>
+                <li>Lesson 02: <a href="lesson02/design.html">design</a></li>
             </ul>
         </section>
         <section class="card">
@@ -35,11 +44,10 @@
         </section>
    </main>
    <footer>
-        <p>&copy;<span id="currentyear"> 2023</span></p>
+        <p id="currentyear"></p>
         <p>Ava Johanson</p>
         <p>Arizona</p>
-        <p>Last Modified: <span id="lastmodified"></span></p>   
+        <p id="lastModified"></p> 
     </footer> 
-    <script src="getdates.js"></script>
 </body>
 </html>
