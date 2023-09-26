@@ -1,0 +1,12 @@
+@media screen and (min-width: 600px) {
+    nav ul{
+      flex-direction: row;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    main section {
+        margin: 1rem .5rem;
+    }
+}
