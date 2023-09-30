@@ -27,7 +27,15 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-indent: 100px;
+}
+
+.weather::first-letter {
+    color: rgb(255, 0, 0);
+}
+
+.weather::after{
+    content: "☀️";
 }
 
 nav ul{
@@ -36,6 +44,27 @@ nav ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#menu {
+    display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	color: #000000;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
 }
 
 main {
@@ -49,13 +78,22 @@ main h2 {
     border: 2px solid rgb(76, 84, 92);
     border-radius: 5px;
     margin-bottom: 20px;
-    padding-bottom: 5px;
 }
 
-nav ul li{
+.info {
+    border: 2px solid rgb(76, 84, 92);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav li{
     list-style-type: none;
-    display: block;
+    display: none;
     width: 100%;
+    padding: 0.75rem;
+    text-align: left;
+    margin: 0 auto;
 }
 
 h3 {
@@ -63,6 +101,10 @@ h3 {
     text-align: center;
     padding: 10px;
     margin: 0;
+}
+
+iframe {
+    padding-bottom: 25px;
 }
 
 footer {
