@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Gill Sans';
+}
+
+h1 {
+    background-color: #15616D;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    background-color: #15616D;
+}
