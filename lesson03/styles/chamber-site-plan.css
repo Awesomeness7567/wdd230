@@ -1,15 +1,24 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Gill Sans';
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
     background-color: #15616D;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Red Rose', serif; 
 }
 
-footer {
+h2,h3,h4,h5,h6 {
+    font-size: 20px;
     background-color: #15616D;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+img {
+    width: 100%;
 }
