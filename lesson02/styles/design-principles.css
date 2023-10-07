@@ -4,7 +4,10 @@ body {
     margin: auto;
     max-width: 800px;
     align-content: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Red Rose', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
