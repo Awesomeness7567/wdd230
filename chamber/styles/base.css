@@ -11,6 +11,7 @@ h1 {
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Red Rose', serif; 
+    padding: 5px;
 }
 
 h2,h3,h4,h5,h6 {
@@ -18,11 +19,21 @@ h2,h3,h4,h5,h6 {
     background-color: #15616D;
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
+    margin: 5px;
 }
 
 p {
     text-align: center;
     padding: 5px;
+}
+
+.current_events,.weather,.first,.second,.third {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* padding-bottom: 5px; */
+    padding: 5px;
+    margin: 10px;
 }
 
 .hero {
@@ -38,8 +49,9 @@ nav li{
     display: none;
     width: 100%;
     padding: 0.75rem;
-    text-align: left;
+    text-align: center;
     margin: 0 auto;
+    padding-right: 40px;
 }
 
 nav ul{

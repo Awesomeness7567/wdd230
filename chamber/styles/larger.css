@@ -1,22 +1,11 @@
 @media screen and (min-width: 600px) {
     nav ul{
       flex-direction: row;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    main section {
-        margin: 1rem .5rem;
-    }
-}
-@media only screen and (min-width: 40em) {
-	nav ul{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-	}
-	nav li {
+    nav li {
 		display: block; /* change state in small view */
 		flex: 1 1 100%;
 	}
@@ -26,4 +15,15 @@
 	#menu {
 		display: none;
 	}
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .first,.second,.third {
+        grid-row: 2/3;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main section {
+        margin: 1rem .5rem;
+    }
 }
