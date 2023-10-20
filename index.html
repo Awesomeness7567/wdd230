@@ -20,7 +20,11 @@
 </head>
 <body>
    <header>
-        <img src="images/Home-page-profile-pic.jpg" alt="Profile pic">
+       <picture>
+            <source srcset="images/profile-small.webp" media="(max-width: 500px)">
+            <source srcset="images/profile-medium.webp" media="(max-width: 1000px)">
+            <img src="images/profile-large.webp">
+       </picture> 
         <h1>Ava Johanson</h1>
    </header>
    <a id="menu" href="#"></a>
@@ -34,20 +38,31 @@
         </ul>
    </nav>
    <main>
-        <h2>WDD 230: Web Frontend Development</h2>
+        <div class="hero">
+            <picture>            
+                <source srcset="images/temple-small.webp"  media="(max-width: 500px)">
+                <source srcset="images/temple-medium.webp" media="(max-width: 1000px)">
+                <img src="images/temple-large.webp" >
+            </picture>
+        </div>
+        <h3>WDD 230: Web Frontend Development</h3>
+    <section class="content">
         <section class="card">
-            <h3>Learning Activities</h3>
+            <h4>Learning Activities</h4>
             <ul>
                 <li>Lesson 01: <a href="lesson01/holygrail.html">Holygrail</a></li>
                 <li>Lesson 02: <a href="lesson02/design.html">Design </a> | <a href="lesson02/design-principles.html">Design Principles</a></li>
                 <li>Lesson 05: <a href="lesson05/bom.html">Book of Mormon</a></li>
+                <li>Lesson 06: <a href="images/landscape.webp">WebP</a></li>
+
             </ul>
         </section>
         <section class="info">
-            <h3>Information</h3>
+            <h4>Information</h4>
             <p class="weather">Hot & Sunny</p>
             <p>Gilbert, Arizona</p>
         </section>
+    </section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106716.91179589526!2d-111.8463639543604!3d33.29518766167993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba90de045ae43%3A0x6453ae977fd9ef7e!2sGilbert%2C%20AZ!5e0!3m2!1sen!2sus!4v1695764967157!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </main>
    <footer>
