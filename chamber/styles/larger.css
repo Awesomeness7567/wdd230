@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1120px) {
     nav ul{
       flex-direction: row;
       display: flex;
@@ -43,4 +43,7 @@
     main section {
         margin: 1rem .5rem;
     }
+    .hero h2::before{
+        content: "Large ";
+    }  
 }

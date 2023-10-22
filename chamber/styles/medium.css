@@ -1,0 +1,6 @@
+@media screen and (min-width: 640px){
+    .hero h2::before {
+        content: "Medium ";
+    } 
+
+}
