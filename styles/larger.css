@@ -13,7 +13,21 @@
         position: relative;
         width: 100%;
     }
+    .hero h2{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 2rem;
+    }
+    nav li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	#menu {
+		display: none;
+	}
 }
+
 @media only screen and (min-width: 40em) {
 	nav li {
 		display: block;
