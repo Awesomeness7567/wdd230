@@ -15,10 +15,18 @@
 	#menu {
 		display: none;
 	}
-    main {
+    #home-main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
+    }
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    #discover-sidebar {
+        border-right: 5px solid #1c7ec0;
+        padding: 1rem;
     }
     .current_events{
         grid-row: 1/2;
@@ -40,7 +48,7 @@
         grid-row: 2;
         grid-column: 3;
     }
-    main section {
+    #home main section {
         margin: 1rem .5rem;
     }
     .hero h2::before{

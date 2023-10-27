@@ -69,6 +69,10 @@ body {
         border: 2px solid rgb(0, 0, 0);
         color: black;
     }
+    #info, #message {
+        border: 5px solid black;
+        color: black;
+    }
     #menu::before {
         color: black;
         content: "☰";
@@ -201,4 +205,28 @@ footer {
 
 footer a {
     color: white;
+}
+
+
+/* Discover page css */
+
+#discover-main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#images {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#images img {
+    border: 5px solid white;
+}
+
+#info, #message {
+    border: 5px solid white;
+    padding: 1rem;
+    margin: 10px;
+    text-align: center;
 }
