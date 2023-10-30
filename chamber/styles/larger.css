@@ -53,5 +53,8 @@
     }
     .hero h2::before{
         content: "Large ";
-    }  
+    }
+    #images img:hover {
+        box-shadow: 0 0 50px white;
+    }
 }
