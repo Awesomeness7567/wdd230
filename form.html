@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Ava Johanson's course assignment portal for course WDD 230-Web Frontend Development">
+        <meta name="author" content="Ava Johanson">
+        <meta property="og:url" content="https://awesomeness7567.github.io/wdd230/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Ava Johanson - WDD 230 - wEB Frontend Development">
+        <meta property="og:description" content="WDD 230 - Web Frontend Development - Ava Johanson course home page assignment">
+        <meta property="og:image" content="https://github.com/Awesomeness7567/wdd230/blob/main/images/Home-page-profile-pic.jpg">
+        <link rel="icon" href="favicon.ico">
+        <title>Ava Johanson - WDD 230 - Web Frontend Development</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/hamburger_menu.js" defer></script>
+        <script src="scripts/local_storage_visits.js" defer></script>
+        <script src="scripts/form.js" defer></script>
+    </head>
+    <body>
+       <header>
+           <picture>
+                <source srcset="images/profile-small.webp" media="(max-width: 500px)">
+                <source srcset="images/profile-medium.webp" media="(max-width: 1000px)">
+                <img src="images/profile-large.webp" alt="profile">
+           </picture> 
+            <h1>Ava Johanson</h1>
+       </header>
+       <a id="menu" href="#"></a>
+       <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="https://www.byui.edu/">BYU-Idaho</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng">Scripture</a></li>
+            </ul>
+       </nav>
+       <main id="form">
+            <form>
+                <form method="get" action="record.html">
+                <span id="message"></span>
+                <fieldset>
+                    <label>Username: <input id="username" name="username" type="text" required></label>
+                    <label>Password: <input id="password" name="password" type="password" required pattern="[\w]{8,}"></label>
+                    <label>Confirm Password: <input id="confirm" name="confirm" type="password" required></label>
+                    <label>Email: <input id="email" name="email" type="email" required pattern="[\w\.]+@byui\.edu$" title="Please enter a valid email address"></label>
+                    <label>Page Rating: <span id="currentrating">1</span><input id="rating" name="rating" type="range" min="1" max="10" step="1" value="1" list="slidervalues"></label>
+                    <datalist id="slidervalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                    <button>GO AND DO!!!</button>
+                </fieldset>
+            </form>
+       </main>
+       <footer>
+            <span id="currentyear"></span>
+            <p>Ava Johanson</p>
+            <p>Arizona</p>
+            <span id="lastModified"></span>
+        </footer> 
+    </body>
+    </html>
+    <main id="form">
+
+    </main>
+</body>
+</html>

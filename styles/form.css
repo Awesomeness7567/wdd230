@@ -1,0 +1,60 @@
+fieldset {
+    box-shadow: 3px 3px rgb(0, 0, 53);
+}
+
+input {
+    display: block;
+    padding: .5rem;
+    font-size: 1.1rem;
+    width: 19rem;
+}
+
+label {
+    display: block;
+    margin: .5rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input:invalid {
+    box-shadow: 2px 2px 2px red;
+}
+
+input:valid {
+    box-shadow: 2px 2px 2px black;
+}
+
+#message {
+    font-size: 1.4rem;
+    padding: .5rem;
+}
+
+#message:hover{
+    box-shadow: 0 0 50px black;
+}
+
+button:hover {
+    box-shadow: 0 0 50px rgb(0, 0, 53);
+}
+
+#slidervalues {
+    display: flex;
+    width: 330px;
+}
+
+#slidervalues option {
+    flex: 1;
+}
+
+button {
+    font-size: 1.3rem;
+    color: white;
+    background-color: red;
+    padding: .5rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+footer {
+    margin: 16px;
+}
