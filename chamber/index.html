@@ -18,6 +18,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger_menu.js" defer></script>
     <script src="scripts/dark_mode.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <label class="switch">
@@ -39,7 +40,10 @@
     </nav>
     <section class="hero">
         <h2>Hero</h2>
-        <img src="images/Demon-Slayer-Corps-Nine-Hashira-Cropped.webp" alt="hero-image">
+        <picture>
+            <source srcset="images/Demon-Slayer-Corps-Nine-Hashira-Cropped-small.webp" media="(max-width: 800px)">
+            <img src="images/Demon-Slayer-Corps-Nine-Hashira-Cropped.webp" alt="hero-image">
+        </picture>
         <button>Call to Action</button>
     </section>
 <main id="home-main">
@@ -47,10 +51,34 @@
         <h3>Current Events</h3>
         <p>Hashira Training Camp</p>
     </section>
+
     <section class="weather">
         <h4>Weather</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni accusantium aspernatur ab totam amet cupiditate perferendis, officiis ipsam veniam similique nihil illum fuga fugiat impedit quidem architecto? Dolor, ut.</p>
-    </section>
+        <div class="weatherTop">
+            <div>
+                <div class="temp"></div>
+                <div class="desc"></div>
+            </div>
+              <img src="/" alt="icon" class="imgweather" />
+        </div>
+            <div class="weatherDesc">
+              <div>
+                <p>Windspeed</p>
+                <div class="weatherIcons">
+                  <i class="fa-solid fa-wind"></i>
+                  <p class="windvalue"></p>
+                </div>
+              </div>
+              <div>
+                <p>Windchill</p>
+                <div class="weatherIcons">
+                  <i class="fa-solid fa-temperature-three-quarters"></i>
+                  <p class="windchill"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
         <section class="first">
             <h5>Spotlight #1</h5>
             <p>Swordsmith Village Attack</p>

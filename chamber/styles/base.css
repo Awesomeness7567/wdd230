@@ -149,6 +149,45 @@ p {
     margin: 10px;
 }
 
+.weatherTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: #2196F3;
+    margin: 10px;
+}
+
+.temp {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.weatherDesc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weatherDesc p {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+
+
 .hero {
     text-align: center;
 }
