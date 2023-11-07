@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Ava Johanson - WDD 230 - Web Frontend Development">
+    <meta name="author" content="Ava Johanson">
+    <meta property="og:description" content="WDD 230 - Web Frontend Development - Ava Johanson chamber home page assignment">
+    <meta property="og:url" content="https://awesomeness7567.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Awesomeness7567/wdd230/blob/main/images/Home-page-profile-pic.jpg">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Chamber of Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger_menu.js" defer></script>
+    <script src="scripts/dark_mode.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+</head>
+<body>
+    <label class="switch">
+        <input type="checkbox" id="dark-mode-toggle">
+        <span class="slider round"></span>
+      </label>
+    <header>
+        <img src="images/Demon-Slayer-Logo.webp" alt="Demon-Slayer-Logo" width="250" height="150">
+        <h1>Demon Slayer Chamber of Commerce</h1>
+    </header>
+    <a id="menu" href="#"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discovery</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+<main id="join">
+            <form method="GET" action="thankyou.html">
+            <fieldset>
+                <label>First Name: <input id="firstname" name="firstname" type="text" required></label>
+                <label>Last Name: <input id="lastname" name="lastname" type="text" required></label>
+                <label>Title/Position: <input id="title" name="title" type="text" required pattern="[a-zA-Z\s\-]{7,}"></label>
+                <label>Email: <input id="email" name="email" type="email" required placeholder="heinz.doofenshmirtz@lovemuffin.com"></label>
+                <label>Phone Number: <input id="phone" name="phone" type="tel" required></label>
+                <label>Organization Name: <input id="businessname" name="businessname" type="text" required></label>
+                <h4>Demon Slayer Corps Level</h4>
+                <label>Mizunoto <input id="1" name="Mizunoto" type="radio"></label>
+                <label>Kinoe <input id="2" name="Kinoe" type="radio"></label>
+                <label>Tsuguko <input id="3" name="Tsuguko" type="radio"></label>
+                <label>Hashira <input id="4" name="Hashira" type="radio"></label>
+                <label>Previous Experience: <textarea name="description" id="description" rows="5"></textarea></label>
+                <label><input id="time" type="hidden" name="time" value=""></label>
+                <button type="submit">Join the Corps!!!</button>
+            </fieldset>
+        </form>
+        <div id="benefits">
+            <h3>Demon Slayer Corp Benefits</h3>
+            <h5>Mizunoto ➡️ Lowest Entry-Level Rank</h5>
+            <li>Get payed 200,000 yen per month</li>
+            <h5>Kinoe ➡️ Highest Rank</h5>
+            <li>Strongest and most respected in corps next to Hashira</li>
+            <li>Can be considered for the Hashira position depending on their skill level</li>
+            <h5>Tsuguko ➡️ Apprentice/Successor to Hashira</h5>
+            <li>Prepare to become the successor to one of the Hashira</li>
+            <li>Get special training and often join their Hashira on missions</li>
+            <li>Often follow Hashira on their patrols and take over some of their duties</li>
+            <h5>Hashira ➡️ Strongest Elite Slayers</h5>
+            <li>Can decide what they deserve to get payed</li>
+            <li>Has their own mansion to rest in between missions</li>
+            <li>Has killed at least 50 demons or a member of the Twelve Kizuki</li>
+            <li>Hold highest authority in the organization, second only to the Corps leader</li>
+        </div>
+</main>
+<footer>
+    <hr>
+    <img src="images/Demon-Slayer-Logo.webp" alt="Demon-Slayer-Logo" height="150" width="250">        
+    <p>Demon Slayer Chamber of Commerce</p>
+    <p><a href="https://kimetsu-no-yaiba.fandom.com/wiki/Kimetsu_no_Yaiba_Wiki">Kimetsu no Yaiba Fandom</a></p>
+    <p><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer Wiki</a></p>
+    <hr>
+    <p> <span id="currentyear"> </span> Ava Johanson </p>
+    <p>WDD 230 Frontent Development </p>
+    <p><span id="lastModified"></span> </p>
+</footer>
+</body>
+</html>
