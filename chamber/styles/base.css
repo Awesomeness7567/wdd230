@@ -313,20 +313,20 @@ input {
 fieldset label {
     display: block;
     margin: .5rem 0;
-    font-weight: bold;
     font-size: 1.2rem;
     padding: .5rem;
 }
 
-h4 {
-    margin: .5rem 0;
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding: .5rem;
+div#select {
+    padding-bottom: 10px;
+    font-size: .10px;
 }
 
-fieldset label #tbd {
-    display: block;
+h4 {
+    margin: .5rem ;
+    font-size: 1.4rem;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 input:invalid {

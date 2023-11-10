@@ -1,0 +1,38 @@
+{
+    "name": "Johanson",
+    "moveInDate": "2022/08/01",
+    "familySize": 4,
+    "visited": false,
+    "members": [
+        {
+            "name": "Hakon",
+            "gender": "M",
+            "birthday": "1978/08/15"
+        },
+        {
+            "name": "Jenny",
+            "gender": "F",
+            "birthday": "1981/08/15"
+        },
+        {
+            "name": "Ava",
+            "gender": "F",
+            "birthday": "2004/08/15"
+        },
+        {
+            "name": "Colette",
+            "gender": "F",
+            "birthday": "2009/09/20"
+        },
+        {
+            "name": "Elise",
+            "gender": "F",
+            "birthday": "2011/12/5"
+        },
+        {
+            "name": "Livy",
+            "gender": "F",
+            "birthday": "2013/08/8"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "name": "Gyomei Himejima",
+            "address": "Stone Mansion",
+            "communication": "Zekka",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Gyomei_Himejima",
+            "imageURL": "images/Gyomei_anime.webp",
+            "membershipLevel": "Stone Hashira"
+        },
+        {
+            "name": "Kyojuro Rengoku",
+            "address": "Flame Mansion",
+            "communication": "Kaname",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Kyojuro_Rengoku",
+            "imageURL": "images/Kyojuro_anime.webp",
+            "membershipLevel": "Flame Hashira"
+        },
+        { 
+            "name": "Tengen Uzui",
+            "address": "Sound Mansion",
+            "communication": "Nijimaru",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Tengen_Uzui",
+            "imageURL": "images/Tengen_anime.webp",
+            "membershipLevel": "Sound Hashira"
+        },
+        {
+            "name": "Mitsuri Kanroji",
+            "address": "Love Mansion",
+            "communication": "Urara",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Mitsuri_Kanroji",
+            "imageURL": "images/Mitsuri_anime.webp",
+            "membershipLevel": "Love Hashira"
+        },
+        {
+            "name": "Obanai Iguro",
+            "address": "Serpent Mansion",
+            "communication": "Yuan",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Obanai_Iguro",
+            "imageURL": "images/Obanai_Iguro_Full_Body_29.webp",
+            "membershipLevel": "Serpent Hashira"
+        },
+        {
+            "name": "Giyu Tomioka",
+            "address": "Water Mansion",
+            "communication": "Kanzaburo",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Giyu_Tomioka",
+            "imageURL": "images/Giyuu_anime_design.webp",
+            "membershipLevel": "Water Hashira"
+        },
+        {
+            "name": "Sanemi Shinazugawa",
+            "address": "Wind Mansion",
+            "communication": "Sorai",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Sanemi_Shinazugawa",
+            "imageURL": "images/Sanemi_colored_body.webp",
+            "membershipLevel": "Wind Hashira"
+        },
+        {
+            "name": "Shinobu Kocho",
+            "address": "Butterfly Mansion",
+            "communication": "En",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Shinobu_Kocho",
+            "imageURL": "images/Shinobu_anime.webp",
+            "membershipLevel": "Insect Hashira"
+        },
+        {
+            "name": "Muichiro Tokito",
+            "address": "Mist Mansion",
+            "communication": "Ginko",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Muichiro_Tokito",
+            "imageURL": "images/Muichiro_Tokito_Full_Body_29.webp",
+            "membershipLevel": "Mist Hashira"
+        }
+    ]
+}

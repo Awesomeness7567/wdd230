@@ -19,6 +19,7 @@
     <script src="scripts/hamburger_menu.js" defer></script>
     <script src="scripts/dark_mode.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/visit.js" defer></script>
 </head>
 <body>
     <label class="switch">
@@ -34,7 +35,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discovery</a></li>
-            <li><a href="#">Directory</a></li>
+            <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
@@ -48,12 +49,14 @@
                 <label>Phone Number: <input id="phone" name="phone" type="tel" required></label>
                 <label>Organization Name: <input id="businessname" name="businessname" type="text" required></label>
                 <h4>Demon Slayer Corps Level</h4>
-                <label>Mizunoto <input id="1" name="Mizunoto" type="radio"></label>
-                <label>Kinoe <input id="2" name="Kinoe" type="radio"></label>
-                <label>Tsuguko <input id="3" name="Tsuguko" type="radio"></label>
-                <label>Hashira <input id="4" name="Hashira" type="radio"></label>
+                <div id="select">
+                    <label>Mizunoto<input name="level" value="Mizunoto" type="radio"></label>
+                    <label>Kinoe <input name="level" value="Kinoe" type="radio"></label>
+                    <label>Tsuguko <input name="level" value="Tsuguko" type="radio"></label>
+                    <label>Hashira <input name="level" value="Hashira" type="radio"></label>
+                </div>
                 <label>Previous Experience: <textarea name="description" id="description" rows="5"></textarea></label>
-                <label><input id="time" type="hidden" name="time" value=""></label>
+                <input id="time" type="hidden" name="time" value="">
                 <button type="submit">Join the Corps!!!</button>
             </fieldset>
         </form>
