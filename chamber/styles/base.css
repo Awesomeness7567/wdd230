@@ -378,3 +378,90 @@ main.thankyou h3 {
     margin: 1rem;
     padding: 1rem;
 }
+
+
+/* Directory page css */
+
+.directory-main{
+    width: 100%;
+}
+
+#directory-selector{
+    width: 100%;
+    text-align: center;
+}
+
+.directory-cards :hover {
+    box-shadow: 0 0 50px white;
+}
+
+#directory-selector button{
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+
+.hashira-img {
+    width: 100%;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+/* Cards view */
+
+.directory-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+}
+
+.directory-cards section{
+    text-align: center;    
+    border: 2px solid white;    
+    width: 300px;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.directory-cards .card-button{
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+}
+
+/* List View */
+
+.directory-list{    
+    display: grid;    
+    justify-items: center;   
+    padding: 1rem;    
+}
+
+.directory-list section img{
+    display: none;
+}
+
+.directory-list section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 70%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.directory-list .card-button{
+    text-decoration: underline;
+    color: white;
+    text-align: right; 
+}
+
+.directory-list section:nth-child(odd) {
+    background-color: #15616D;
+}
+
+.directory-list section:nth-child(even) {
+    background-color: black;
+}
