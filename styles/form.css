@@ -1,3 +1,7 @@
+:root {
+    background-color: rgb(185, 222, 255);
+}
+
 fieldset {
     box-shadow: 3px 3px rgb(0, 0, 53);
 }

@@ -65,7 +65,7 @@ body {
 body.dark-mode {
         background-color: white;
         color: white;
-        .current_events,.weather,.first,.second,.third, #benefits, fieldset {
+        .current_events, .weather, .first, .second, .third, #benefits, fieldset, .directory-cards section, h4 {
             border: 5px solid rgb(0, 0, 0);
             color: black;
         }
@@ -277,6 +277,7 @@ footer a {
 
 #images img {
     border: 5px solid white;
+    padding: 10px;
 }
 
 #images img:hover {
@@ -327,6 +328,7 @@ h4 {
     font-size: 1.4rem;
     padding-top: 15px;
     padding-bottom: 10px;
+    color: white;
 }
 
 input:invalid {
