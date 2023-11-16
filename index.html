@@ -18,6 +18,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger_menu.js" defer></script>
     <script src="scripts/local_storage_visits.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
    <header>
@@ -62,12 +63,39 @@
 
             </ul>
         </section>
-        <section class="info">
+        <!-- <section class="info">
             <h4>Information</h4>
             <p class="weather">Hot & Sunny</p>
             <p>Gilbert, Arizona</p>
             <p><span class="label">Number of Visits: </span><span class="visits"></span></p>        
-        </section>
+        </section> -->
+        <section class="weather">
+            <h4>Weather</h4>
+            <div class="weatherTop">
+                <div>
+                    <div class="temp"></div>
+                    <div class="desc"></div>
+                </div>
+                  <img src="/" alt="icon" class="imgweather" />
+            </div>
+                <div class="weatherDesc">
+                  <div>
+                    <p>Windspeed</p>
+                    <div class="weatherIcons">
+                      <i class="fa-solid fa-wind"></i>
+                      <p class="windvalue"></p>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Windchill</p>
+                    <div class="weatherIcons">
+                      <i class="fa-solid fa-temperature-three-quarters"></i>
+                      <p class="windchill"></p>
+                    </div>
+                  </div>
+                </div>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>        
+              </section>
     </section>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106716.91179589526!2d-111.8463639543604!3d33.29518766167993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba90de045ae43%3A0x6453ae977fd9ef7e!2sGilbert%2C%20AZ!5e0!3m2!1sen!2sus!4v1695764967157!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
    </main>
