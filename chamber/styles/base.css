@@ -252,6 +252,13 @@ nav ul li a:hover{
     content: "X";
 }
 
+#meetgreet {
+    background-color: #15616D;
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+}
+
 footer {
     text-align: center;
     background-color: #15616D;
