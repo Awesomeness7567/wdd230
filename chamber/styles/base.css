@@ -367,7 +367,7 @@ button {
     font-weight: bold;
 }
 
-ul#benefits {
+div#benefits {
     margin: 1rem;
     padding: 1rem;
     border: 5px white solid;
