@@ -345,6 +345,7 @@ h5 {
 
 li {
     padding: 5px;
+    margin-left: 25px;
 }
 
 textarea {
@@ -366,7 +367,7 @@ button {
     font-weight: bold;
 }
 
-div#benefits {
+ul#benefits {
     margin: 1rem;
     padding: 1rem;
     border: 5px white solid;
