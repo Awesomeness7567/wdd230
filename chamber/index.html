@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Ava Johanson - WDD 230 - Web Frontend Development">
     <meta name="author" content="Ava Johanson">
-    <meta property="description" content="WDD 230 - Web Frontend Development - Ava Johanson chamber home page assignment">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Ava Johanson demon slayer chamber home page">
+    <meta property="og:title" content="Ava Johanson - WDD 230 - Web Frontend Development">
     <meta property="og:url" content="https://awesomeness7567.github.io/wdd230/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://github.com/Awesomeness7567/wdd230/blob/main/images/Home-page-profile-pic.jpg">
     <link rel="icon" href="images/favicon.ico">
-    <title>Chamber of Commerce</title>
+    <title>Demon Slayer Chamber of Commerce</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -22,17 +22,17 @@
     <script src="scripts/meetgreet.js" defer></script>
 </head>
 <body>
-    <label class="switch">
-        <input type="checkbox" id="dark-mode-toggle">
-        <span class="slider round"></span>
-      </label>
     <header>
+        <label class="switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider round"></span>
+        </label>
         <!-- <img src="images/Demon-Slayer-Logo.webp" alt="Demon-Slayer-Logo" width="250" height="150"> -->
         <img src="images/Demon-Slayer-Logo_new.webp" alt="Demon-Slayer-Logo_new">
         <h1>Demon Slayer Chamber of Commerce</h1>
     </header>
-    <a id="menu" href="#"></a>
     <nav>
+        <a id="menu" href="#"></a>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discovery</a></li>
@@ -40,16 +40,17 @@
             <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+<main id="home-main">
     <p id="meetgreet">Join us for a meet and greet Wednesday at 7:00 pm!<span id="close-greet"> ❌</span></p>
     <section class="hero">
         <h2>Hero</h2>
         <picture>
             <source srcset="images/Demon-Slayer-Corps-Nine-Hashira-Cropped-small.webp" media="(max-width: 800px)">
-            <img src="images/Demon-Slayer-Corps-Nine-Hashira-Cropped.webp" alt="hero-image">
+            <img src="images/Demon-Slayer-Corps-Nine-Hashira-Cropped.webp" alt="hashira-hero-image">
         </picture>
-        <button>Call to Action</button>
+        <button><a href="join.html">Join the Corps!</a></button>
     </section>
-<main id="home-main">
+
     <section class="current_events">
         <h3>Current Events</h3>
         <p>Hashira Training Camp</p>
