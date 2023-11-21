@@ -25,7 +25,7 @@ listSelector.addEventListener('click', ()=>{
 
 // members data
 
-const url = "members.json";
+const url = '/data/members.json';
 
 const displayHashirasCard = (members) => {
     const cards = document.querySelector(".directory-cards"); // select the output container element
