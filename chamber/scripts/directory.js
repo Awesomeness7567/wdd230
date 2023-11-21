@@ -25,6 +25,7 @@ listSelector.addEventListener('click', ()=>{
 
 // members data
 
+// const url = './data/members.json';
 const url = './data/members.json';
 
 const displayHashirasCard = (members) => {
