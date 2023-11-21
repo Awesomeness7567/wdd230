@@ -451,7 +451,8 @@ footer {
     border: 2px solid white;    
     width: 300px;
     padding: 1rem;
-    margin: .5rem;
+    margin: 1rem;
+    box-shadow: .5rem .5rem .5rem white;
 }
 
 .directory-cards .card-button{
