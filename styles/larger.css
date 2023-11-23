@@ -6,6 +6,9 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+    #forecast {
+        grid-column: 1/6;
+    }
     main section {
         margin: 1rem .5rem;
     }

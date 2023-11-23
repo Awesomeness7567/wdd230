@@ -209,6 +209,24 @@ div.desc {
     color: white;
 }
 
+#forecast {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#forecast section h3 {
+    background-color: black;
+}
+
+#forecast h3 {
+    grid-column: 1/4;
+}
+
 nav ul{
     list-style: none;
     padding-inline-start: 0px;
