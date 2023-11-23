@@ -160,6 +160,47 @@ div.desc {
     margin: 10px;
 }
 
+.current_events {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+}
+
+.current_events p.title {
+    grid-column: 1/3;
+    grid-row: 2;
+    font-size: 18px;
+    background-color: #2196F3;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.current_events img {
+    grid-column: 1;
+    grid-row: 3/5;
+    padding: 15px;    
+}
+
+.current_events h3 {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.current_events p1 {
+    grid-column: 2;
+    grid-row: 3;
+    padding-top: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.current_events p2 {
+    grid-column: 2;
+    grid-row: 4;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
 .weatherTop {
     display: flex;
     flex-direction: row;
