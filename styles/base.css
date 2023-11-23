@@ -122,6 +122,21 @@ nav a {
     box-shadow: 3px 3px rgb(0, 0, 53);
 }
 
+#forecast {
+    border: 2px solid rgb(76, 84, 92);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow: 3px 3px rgb(0, 0, 53);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#forecast h4 {
+    grid-column: 1/4;
+}
+
 nav li{
     list-style-type: none;
     display: none;
