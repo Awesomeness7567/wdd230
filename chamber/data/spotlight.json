@@ -1,0 +1,28 @@
+{
+    "members": [
+        {
+            "name": "Gyomei Himejima",
+            "address": "Stone Mansion",
+            "communication": "Zekka",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Gyomei_Himejima",
+            "imageURL": "images/Gyomei_anime.webp",
+            "membershipLevel": "Stone Hashira"
+        },
+        {
+            "name": "Mitsuri Kanroji",
+            "address": "Love Mansion",
+            "communication": "Urara",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Mitsuri_Kanroji",
+            "imageURL": "images/Mitsuri_anime.webp",
+            "membershipLevel": "Love Hashira"
+        },
+        {
+            "name": "Muichiro Tokito",
+            "address": "Mist Mansion",
+            "communication": "Ginko",
+            "websiteURL": "https://kimetsu-no-yaiba.fandom.com/wiki/Muichiro_Tokito",
+            "imageURL": "images/Muichiro_Tokito_Full_Body_29.webp",
+            "membershipLevel": "Mist Hashira"
+        }
+    ]
+}

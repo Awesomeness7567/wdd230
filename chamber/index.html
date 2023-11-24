@@ -21,16 +21,16 @@
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/meetgreet.js" defer></script>
     <script src="scripts/forecast.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 </head>
 <body>
     <header>
+        <img src="images/Demon-Slayer-Logo_final.webp" alt="Demon-Slayer-Logo">
+        <h1>Demon Slayer Chamber of Commerce</h1>
         <label class="switch">
             <input type="checkbox" id="dark-mode-toggle">
             <span class="slider round"></span>
         </label>
-        <!-- <img src="images/Demon-Slayer-Logo.webp" alt="Demon-Slayer-Logo" width="250" height="150"> -->
-        <img src="images/Demon-Slayer-Logo_new.webp" alt="Demon-Slayer-Logo_new">
-        <h1>Demon Slayer Chamber of Commerce</h1>
     </header>
     <nav>
         <a id="menu" href="#"></a>
@@ -57,12 +57,12 @@
         <p class="title">Hashira Training Camp!! <br>Don't miss this once in a 
             lifetime opportunity to sharpen your skills!</p>
         <img src="images/Gyomei_weightlifting_on_fire_CH133.webp" alt="gyomei_lifting">
-        <p1>The Hashira Training is a one-of-a-kind training session taught
+        <p class="one">The Hashira Training is a one-of-a-kind training session taught
             by the Hashira that aims to improve the abilities and physical 
-            health of all Demon Slayers. </p1>
-        <p2>The training is divided among the Hashira and includes 
+            health of all Demon Slayers. </p>
+        <p class="two">The training is divided among the Hashira and includes 
             basic stamina, flexibility, reflex, sword skill, and strength 
-            training.</p2>
+            training.</p>
     </section>
 
     <section class="weather">
@@ -94,19 +94,11 @@
         <section id="forecast">
             <h3>Three Day Forecast</h3>
         </section>
-
-        <section class="first">
-            <h3>Spotlight #1</h3>
-            <p>Mugen Train Incident</p>
+        <section class="spotlights">
+            <h3>Spotlights</h3>
+            <hr>
+            <div id='directory-data' class='directory-cards'>
         </section>
-        <section class="second">
-            <h3>Spotlight #2</h3>
-            <p>Entertainment District</p>
-        </section>
-        <section class="third">
-            <h3>Spotlight #3</h3>
-            <p>Swordsmith Village Attack</p>
-    </section>
 </main>
     <footer>
         <hr>

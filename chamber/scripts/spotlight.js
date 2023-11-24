@@ -1,32 +1,4 @@
-// Grid vs list
-
-var gridSelector = document.querySelector('#directory-grid');
-var listSelector = document.querySelector('#directory-list');
-var directoryData = document.querySelector('#directory-data');
-
-gridSelector.addEventListener('click', ()=>{
-    if (!gridSelector.classList.contains('active')){    
-        gridSelector.classList.add('active');
-        listSelector.classList.remove('active');
-        directoryData.classList.add('directory-cards');
-        directoryData.classList.remove('directory-list');
-    }
-});
-
-listSelector.addEventListener('click', ()=>{
-    if (!listSelector.classList.contains('active')){
-        listSelector.classList.add('active');
-        gridSelector.classList.remove('active');
-        directoryData.classList.add('directory-list');
-        directoryData.classList.remove('directory-cards');
-    }
-});
-
-
-// members data
-
-// const url = './data/members.json';
-const url = './data/members.json';
+const url = './data/spotlight.json';
 
 const displayHashirasCard = (members) => {
     const cards = document.querySelector(".directory-cards"); // select the output container element
