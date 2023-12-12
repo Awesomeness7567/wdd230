@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="author" content="Ava Johanson">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Ava Johanson bountiful foods home page">
+    <meta property="og:title" content="Ava Johanson - WDD 230 - Web Frontend Development">
+    <meta property="og:url" content="https://awesomeness7567.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Awesomeness7567/wdd230/blob/main/images/Home-page-profile-pic.jpg">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger_menu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/drink_number.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/bountiful_foods_logo2_scaled.webp" alt="logo">
+        <nav>
+            <a id="menu" href="#"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order_drink.html">Order Drink</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="hero">
+            <h1>Bountiful Foods</h1>
+            <picture>
+                <img src="images/fruit-smoothies.webp" alt="hero-smoothies">
+            </picture>
+            <button onclick="window.location.href='order_drink.html'">Make your own smoothie now!</button>
+        </section>
+
+        <section class="summary">
+            <h2>California Coast</h2>
+            <p>Coronado Beach is a beautiful beach located in Coronado, California. The beach is situated next to the iconic Hotel del Coronado, which is a popular tourist attraction. The beach is wide and sandy, with gentle surf and picturesque views of the ocean. It is a popular spot for swimming, sunbathing, and building sandcastles. The beach is also dog-friendly, so you can bring your furry friend along.</p>
+        </section>
+
+        <section class="weather">
+            <h2>Carlsbad Weather</h2>
+            <p>Temperature: <span id="temperature"></span></p>
+            <p>Condition: <span id="condition"></span></p>
+            <p>Humidity: <span id="humidity"></span></p>
+            <img id="icon" src="" alt="Weather Icon">
+
+            <section id="forecast">
+                <h2>Three Day Forecast</h2>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="references">
+            <p>Images provided by <br><br><a href="https://www.fruityvice.com/">Fruityvice</a></p>
+            <p>Weather data provided by <br><br><a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+        </div>
+
+        <div class="social">
+            <p><a href="https://www.facebook.com/">Facebook</a></p>
+            <p><a href="https://www.twitter.com/">Twitter</a></p>
+            <p><a href="https://www.instagram.com/">Instagram</a></p>
+        </div>
+        
+        <div class="contact">
+            <p>Last modified: <span id="last-modified-date"></span></p>
+            <p>Email: BountifulFoods@smoothies.com</p>
+            <p>Phone: (760) 312-9647</p>
+            <p>Address: 1200 Village Drive Carlsbad, CA 92008</p>
+        </div>
+    </footer>
+</body>
+</html>

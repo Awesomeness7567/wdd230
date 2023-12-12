@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="author" content="Ava Johanson">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Ava Johanson bountiful foods home page">
+    <meta property="og:title" content="Ava Johanson - WDD 230 - Web Frontend Development">
+    <meta property="og:url" content="https://awesomeness7567.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Awesomeness7567/wdd230/blob/main/images/Home-page-profile-pic.jpg">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger_menu.js" defer></script>
+    <script src="scripts/drinks.js" defer></script>
+    <script src="scripts/confirmation.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/bountiful_foods_logo2_scaled.webp" alt="logo">
+        <nav>
+            <a id="menu" href="#"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order_drink.html">Order Drink</a></li>
+                <li><a href="order_confirmation.html">Order Confirmation</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="order_confirmation">
+        <section class="experience">
+            <h2>Thank You For Your Order!!</h2>
+            <p>Your smoothie will be ready in about 20 minutes!</p>
+            <p>Please feel free to contact us if there is a problem with your order<br>
+            Email: BountifulFoods@smoothies.com<br>
+            Phone: (760) 312-9647</p>
+            <button onclick="window.location.href='https://www.instagram.com/'">Leave a Review on Our Instagram Here!</button>    
+        </section>
+
+        <div id="output"></div>
+    </main>
+    <footer>
+        <div class="references">
+            <p>Images provided by <br><br><a href="https://www.fruityvice.com/">Fruityvice</a></p>
+            <p>Weather data provided by <br><br><a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+        </div>
+
+        <div class="social">
+            <p><a href="https://www.facebook.com/">Facebook</a></p>
+            <p><a href="https://www.twitter.com/">Twitter</a></p>
+            <p><a href="https://www.instagram.com/">Instagram</a></p>
+        </div>
+        
+        <div class="contact">
+            <p>Last modified: <span id="last-modified-date"></span></p>
+            <p>Email: BountifulFoods@smoothies.com</p>
+            <p>Phone: (760) 312-9647</p>
+            <p>Address: 1200 Village Drive Carlsbad, CA 92008</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="author" content="Ava Johanson">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Ava Johanson bountiful foods home page">
+    <meta property="og:title" content="Ava Johanson - WDD 230 - Web Frontend Development">
+    <meta property="og:url" content="https://awesomeness7567.github.io/wdd230/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/Awesomeness7567/wdd230/blob/main/images/Home-page-profile-pic.jpg">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburger_menu.js" defer></script>
+    <script src="scripts/drinks.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/bountiful_foods_logo2_scaled.webp" alt="logo">
+        <nav>
+            <a id="menu" href="#"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order_drink.html">Order Drink</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="aboutus">
+       <section class="company">
+            <h2>History of Bountiful Foods</h2>
+            <p>Bountiful Foods is small business specializing in organic, locally grown foods. 
+                We are physically located in Carlsbad, California, however, we have many food trucks that cover the coastal area from Los Angeles to San Diego. 
+                Our company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. 
+                We deliver and manage those orders on the phone and via the website. 
+            </p>
+            <picture>
+                <source media="(max-width: 150px)" srcset="images/Three_people_drinking_smoothies-small.webp">
+                <source media="(max-width: 225px)" srcset="images/Three_people_drinking_smoothies-medium.webp">
+                <img src="images/Three_people_drinking_smoothies.webp" alt="drinking_smoothies">
+            </picture>
+       </section>
+       <hr>
+       <section class="area">
+            <h2>History of Carlsbad California</h2>
+            <p>Carlsbad is a coastal city in the North County region of San Diego County, California, United States. The city is 87 miles south of downtown Los Angeles and 35 miles north of downtown San Diego. As of the 2020 census, the population of the city was 114,746. Carlsbad is a popular tourist destination and home to many businesses in the golf industry.</p>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/Carlsbad-California-small.webp">
+                <source media="(max-width: 1000px)" srcset="images/Carlsbad-California-medium.webp">
+                <img src="images/Carlsbad-California.webp" alt="Carlsbad">
+            </picture>
+        </section>
+        <hr>
+        <section class="map">
+            <p>Here's a Google Map of Carlsbad, California:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13408.98281912991!2d-117.3130825!3d33.158093799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc6c7c8e3b3a4d%3A0x7b1c1d6d7b3d5d7f!2sCarlsbad%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1668215200077!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+        </section>
+    </main>
+    <footer>
+        <div class="references">
+            <p>Images provided by <br><br><a href="https://www.fruityvice.com/">Fruityvice</a></p>
+            <p>Weather data provided by <br><br><a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+        </div>
+
+        <div class="social">
+            <p><a href="https://www.facebook.com/">Facebook</a></p>
+            <p><a href="https://www.twitter.com/">Twitter</a></p>
+            <p><a href="https://www.instagram.com/">Instagram</a></p>
+        </div>
+        
+        <div class="contact">
+            <p>Last modified: <span id="last-modified-date"></span></p>
+            <p>Email: BountifulFoods@smoothies.com</p>
+            <p>Phone: (760) 312-9647</p>
+            <p>Address: 1200 Village Drive Carlsbad, CA 92008</p>
+        </div>
+    </footer>
+</body>
+</html>
