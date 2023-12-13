@@ -18,8 +18,8 @@
     .company {
         padding: 20px;
         display: grid;
-        grid-template-columns: 2;
-        grid-template-rows: 2;
+        grid-template-columns: 2fr;
+        grid-template-rows: 2fr;
         align-items: center;
     }
     .company h2 {
@@ -37,7 +37,6 @@
         grid-row: 2;
         grid-column: 1;
         height: auto;
-        max-width: 100%;
     }
     .company h2 {
         color: #F14624;
@@ -45,10 +44,8 @@
         font-size: 50px;
         text-shadow: 2px 2px 2px #000000;
     }
-    .map iframe {
-        width: auto;
-    }
-    footer {
-        width: auto;
+    button {
+        position: absolute;
+        margin-top: 50px;
     }
 }
