@@ -68,15 +68,11 @@ nav ul li a:hover{
 h1 {
     position: relative;
     z-index: 2;
-    /* top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     color: #E70280;
     font-weight: bold;
     font-size: 45px;
     text-align: center;
     text-shadow: 3px 2px #FBC008;
-    /* padding-top: 100px; */
 }
   
 .hero img[alt^="hero-smoothie"] {
@@ -121,6 +117,11 @@ button {
     padding: 1rem;
     text-align: center;
     margin: 1rem;
+}
+
+p.count {
+    text-align: center;
+    font-size: 22px;
 }
 
 footer {
