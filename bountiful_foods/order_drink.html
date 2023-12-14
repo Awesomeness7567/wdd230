@@ -17,6 +17,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger_menu.js" defer></script>
     <script src="scripts/drinks.js" defer></script>
+    <script src="scripts/drink_number.js" defer></script>
 </head>
 <body>
     <header>
@@ -31,7 +32,7 @@
         </nav>
     </header>
     <main id="order_drink">
-        <form method="GET" action="order_confirmation.html" onsubmit="myfunc(specialty_drinks)">
+        <form method="GET" action="order_confirmation.html" id="myForm">
             <fieldset>
                 <label>First Name: <input id="firstname" name="firstname" type="text" required></label>
                 <label>Email: <input id="email" name="email" type="email" required></label>
@@ -51,8 +52,7 @@
                 <label for="instructions">Special Instructions:</label>
                 <textarea id="instructions" name="instructions"></textarea>
                 <p>Payment is received when the drink is picked up.</p>
-                <input type="submit" value="Make Your Smoothie Now!" onclick="submitForm()">
-                <!-- <button type="submit" onclick="submitForm()">Submit</button> -->
+                <button type="submit">Make Your Smoothie Now!</button>
             </fieldset>
         </form>
     </main>

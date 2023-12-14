@@ -190,14 +190,12 @@ input:invalid {
     box-shadow: 2px 2px 2px rgb(238, 28, 37);
 }
 
-input[type='submit'] {
-    width: 100%;
+form button {
     font-size: 1.3rem;
-    color: white;
-    background-color: rgb(238, 28, 37);
     padding: 1rem;
     margin: 1rem 0;
     font-weight: bold;
+    position: relative;
 }
 
 
